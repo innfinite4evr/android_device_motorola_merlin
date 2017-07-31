@@ -10,6 +10,7 @@ ro.product.model=Moto X Play
 
 # Display
 ro.sf.lcd_density=480
+debug.hwui.use_buffer_age=false
 
 # Google assistant
 ro.opa.eligible_device=true
