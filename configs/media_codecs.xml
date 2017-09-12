@@ -129,5 +129,6 @@
     </Decoders>
     <!-- Video Software  -->
     <Include href="media_codecs_google_video.xml" />
-    <Include href="media_codecs_ffmpeg.xml" />
+<!-- Disable FFMpeg for now. -->
+<!--    <Include href="media_codecs_ffmpeg.xml" /> -->
 </MediaCodecs>
