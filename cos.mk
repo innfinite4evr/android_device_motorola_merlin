@@ -15,7 +15,7 @@
 $(call inherit-product, device/motorola/merlin/full_merlin.mk)
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/cos/common.mk)
 
 
 # Boot animation
@@ -24,7 +24,8 @@ TARGET_SCREEN_HEIGHT := 1280
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlin
-PRODUCT_NAME := aosp_merlin
+PRODUCT_NAME := cos_merlin
+PRODUCT_MODEL := MotoG3-TE
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := merlin
