@@ -15,14 +15,12 @@
 $(call inherit-product, device/motorola/lux/full_lux.mk)
 
 # Inherit AOSP common stuff
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/cos/common.mk)
 
-#Bootanimation res
-TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lux
-PRODUCT_NAME := aosp_lux
+PRODUCT_NAME := cos_lux
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := lux
