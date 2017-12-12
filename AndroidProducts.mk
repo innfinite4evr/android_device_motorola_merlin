@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #
 # Copyright (C) 2014 The CyanogenMod Project

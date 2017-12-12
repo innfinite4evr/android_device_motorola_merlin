@@ -5,9 +5,9 @@
   },
   {
     "remote":      "github",
-    "repository":  "desaishivam26/android_kernel_motorola_msm8916",
+    "repository":  "ishubhamsingh/android_kernel_motorola_msm8916",
     "target_path": "kernel/motorola/msm8916",
-    "branch":      "cm-14.1"
+    "branch":      "hx-o"
   },
   {
     "repository":  "proprietary_vendor_motorola",
@@ -18,5 +18,17 @@
     "repository":  "LineageOS/android_external_bson",
     "target_path": "external/bson",
     "branch":      "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch":      "lineage-15.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat",
+    "branch":      "lineage-15.0"
   }
 ]
