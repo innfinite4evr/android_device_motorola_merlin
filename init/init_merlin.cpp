@@ -76,8 +76,8 @@ void vendor_load_properties()
         sprintf(customerid, "retasia");
     }
 
-    sprintf(description, "merlin_%s-user 6.0.1 MPD24.107-56 30 release-keys", customerid);
-    sprintf(fingerprint, "motorola/merlin_%s/merlin:6.0.1/MPD24.107-56/30:user/release-keys", customerid);
+    sprintf(description, "merlin_retus-user 6.0.1 MPD24.107-56 30 release-keys", customerid);
+    sprintf(fingerprint, "motorola/merlin_retus/merlin:6.0.1/MPD24.107-56/30:user/release-keys", customerid);
 
     property_override("ro.product.device", device);
     property_override("ro.build.product", device);
