@@ -48,3 +48,7 @@ PRODUCT_PACKAGES += \
 # Thermal
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/thermal-engine-merlin.conf:system/etc/thermal-engine-merlin.conf
+
+# CHARGER_RES
+PRODUCT_PACKAGES += \
+charger_res_images
