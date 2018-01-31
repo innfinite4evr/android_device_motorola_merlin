@@ -52,3 +52,7 @@ PRODUCT_COPY_FILES += \
 # CHARGER_RES
 PRODUCT_PACKAGES += \
 charger_res_images
+
+# Firmware Extraction
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/extract_firmware.sh:install/bin/extract_firmware.sh

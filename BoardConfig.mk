@@ -54,3 +54,6 @@ endif
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+# Release Tools
+TARGET_RELEASETOOLS_EXTENSIONS := $(VENDOR_PATH)
