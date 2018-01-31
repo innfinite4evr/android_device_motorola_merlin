@@ -56,3 +56,8 @@ charger_res_images
 # Firmware Extraction
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/extract_firmware.sh:install/bin/extract_firmware.sh
+
+# magisk
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/magisk/magisk.zip:magisk/magisk.zip
+

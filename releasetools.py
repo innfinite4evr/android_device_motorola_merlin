@@ -24,3 +24,11 @@ def ExtractFirmwares(info):
   info.script.AppendExtra('unmount("/firmware");')
   info.script.Unmount("/system")
 
+def magisk(info):
+  info.script.Mount("/system")
+  info.script.AppendExtra('ui_print("- Flashing Magisk...");')
+  info.script.AppendExtra('package_extract_dir("magisk", "/tmp/magisk");')
+  info.script.AppendExtra('run_program("/sbin/busybox", "unzip", "/tmp/magisk/magisk.zip", "META-INF/com/google/android/*", "-d", "/tmp/magisk");')
+  info.script.AppendExtra('run_program("/sbin/sh", "/tmp/magisk/META-INF/com/google/android/update-binary", "dummy", "1", "/tmp/magisk/magisk.zip");')
+  info.script.Unmount("/system")
+
