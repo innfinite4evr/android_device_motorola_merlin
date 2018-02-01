@@ -525,7 +525,7 @@
 	</path>
 
 	<path name="headphones">
-		<ctl name="MI2S_RX Channels" value="Two" />
+		<ctl name="MI2S_RX Channels" value="One" />
 		<ctl name="RX1 MIX1 INP1" value="RX1" />
 		<ctl name="RX2 MIX1 INP1" value="RX2" />
 		<ctl name="RDAC2 MUX" value="RX2" />
