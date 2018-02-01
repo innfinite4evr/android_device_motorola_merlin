@@ -61,3 +61,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/magisk/magisk.zip:magisk/magisk.zip
 
+# DolbyAtmos
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/dolbyatmos/dolbyatmos.zip:dolbyatmos/dolbyatmos.zip
